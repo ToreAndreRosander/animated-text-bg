@@ -1,10 +1,14 @@
 body {
     background: #000000;
-    color: #00000047;
+    color: #ffffff2f;
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
     height: 100vh;
+    background-image: url("./bg.jpg");
+    background-size: cover;
+    background-position: center;
+
 }
 
 main {
@@ -15,20 +19,12 @@ main {
 }
    
 h1 {
-    background: url("./c2396c93261708302148b3a92c38fdcb.gif");
+    background: url("./Ebvr.gif");
     background-size: cover;
-    background-position: bottom;
+    background-position: center;
     font-size: 10vw;
     background-clip: text;
     -webkit-background-clip: text;
     animation: animatedBackground 5s; 
 }
 
-@keyframes animatedBackground {
-    from {
-        background-position: 50% 0%;
-    }
-    to {
-        background-position: 50%;
-    }
-}
